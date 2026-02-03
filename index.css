@@ -1,71 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 
-html, body{
-    background-color: rgb(226, 226, 226);
+.form {
      font-family: "Google Sans", sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
-/* Базові налаштування */
-* { box-sizing: border-box; }
-
-.product-card{
-   width: 320px;
-  padding: 16px;
- 
-  border-radius: px;
-  background: #fff;
-  box-shadow: 0 10px 25px rgba(0,0,0,.08);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  position: relative;
-  overflow: hidden;
+.form label{
+font-size: 14px;
+padding: 0px 5px;
 }
 
-.product-card::before{
-content: "NEW";
-position: absolute;
-font-size: 16px;
-padding: 9px 9px;
-font-weight: bold;
-color: rgb(165, 34, 34);
-}
-
-.product-card::after{
-    padding: 9px 9px;
-    position: absolute;
-    content: "♡";
-    display: flex;
-    right: 25px;
-    padding: 0px 9px;
-    font-size: 25px;
-}
-
-
-.product-card h1{
-     font-size: 18px;
-     margin: 0;
-     padding: 0;
+.form input{
+     font-family: "Google Sans", sans-serif;
+     border-radius: 30px;
+     padding: 5px 20px;
+     border-color: rgb(0, 0, 0);
+     border-width: 1px;
      
 }
-
-.product-card h1+p{
-    padding: 0px 0px;
-    font-size: 11.5px;
-     margin-top: 0px;
-
-}
-
-
-.product-card p+p{
-    font-size: 17px;
-    margin-top: 0%;
-}
-
-
 
 
 
