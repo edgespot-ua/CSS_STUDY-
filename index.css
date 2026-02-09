@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 
-h2 ~ .footer {
-  color:aquamarine;
+
+body, html {
+    font-family: "Google Sans", sans-serif;
+
+}
+
+
+.katalog {
+  list-style: none;
+
+}
+
+.katalog li {
+  
+  padding: 3px 0px;
+}
+
+
+.arrow{
+  display: inline-block;
+  transition:  transform .2s ease;
+}
+
+.katalog li:active .arrow {
+  transform: rotate(90deg);
 }
