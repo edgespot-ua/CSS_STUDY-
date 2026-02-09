@@ -8,22 +8,20 @@ body, html {
 }
 
 
-.katalog {
-  list-style: none;
+*{ box-sizing: border-box; }
 
+.wrap{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #f3f4f6;
 }
 
-.katalog li {
-  
-  padding: 3px 0px;
-}
-
-
-.arrow{
-  display: inline-block;
-  transition:  transform .2s ease;
-}
-
-.katalog li:active .arrow {
-  transform: rotate(90deg);
+.card{
+  max-width: 320px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 14px;
+  background: white;
 }
