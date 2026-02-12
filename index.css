@@ -12,29 +12,59 @@
 
 body, html {
     font-family: "Google Sans", sans-serif;
-
+     background-color: aliceblue;
 }
 
-*{
-  box-sizing: border-box;
+.promo{
+display: flex;
+justify-content: center;
+padding: 200px;
 }
 
-.cards{
+.promo-catd{
  
-  /* тут допиши */
-  flex-wrap: wrap;
-  gap: 20px; 
-  display: flex;
-}
-
-.card{
-  /* тут допиши */
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
   max-width: 280px;
   width: 100%;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 23px;
+  box-shadow: 5px 15px 25px rgb(155, 155, 155);
 }
 
-.card img {
-  min-width: 280px; 
+.promo-catd h1,h2{
+  margin: 0;
+  padding: 0;
+}
+
+.promo-catd h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(116, 18, 207);
+}
+
+
+.promo-catd h2{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(116, 18, 207);
+}
+
+.promo-catd p {
+  font-size: 15px;
+}
+
+.promo-catd button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(116, 18, 207);;
   width: 100%;
+  padding:14px;
+  border: 0;
+  border-radius: 40px;
+  font-size: 15px;
+  cursor:  pointer;
 }
+
