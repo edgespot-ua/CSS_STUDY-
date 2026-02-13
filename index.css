@@ -16,55 +16,82 @@ body, html {
 }
 
 .promo{
-display: flex;
+padding: 0px 400px;
 justify-content: center;
-padding: 200px;
-}
-
-.promo-catd{
- 
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  max-width: 280px;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 18px;
-  padding-right: 18px;
-  border-radius: 23px;
-  box-shadow: 5px 15px 25px rgb(155, 155, 155);
-}
-
-.promo-catd h1,h2{
-  margin: 0;
-  padding: 0;
-}
-
-.promo-catd h1{
-  font-size: 50px;
-  font-weight: bolder;
-  color: rgb(116, 18, 207);
+align-items: center;
 }
 
 
-.promo-catd h2{
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(116, 18, 207);
+.Apple-Watch{
+font-size: 40px;
 }
 
-.promo-catd p {
+.Items-section{
+  display: flex;
+  gap: 25px;
+}
+
+
+.item-catd{
+  text-align: center;
+}
+
+.item-catd img{
+  width: 360px;
+  transition: transform .3s ease;
+}
+.item-catd img:hover{
+  transform: scale(1.017);
+}
+
+
+.color{
+font-size: 8px;
+padding-top: 8px;
+user-select: none;
+}
+
+.span-color1{
+  color: rgb(175, 169, 162);
+  
+}
+
+.watch-name{
+  font-size: 22px;
+  font-weight:550;
+
+}
+
+.watch-haract{
+  font-size: 14px;
+}
+
+.price-watch{
   font-size: 15px;
 }
 
-.promo-catd button{
+.learn-more-btn{
+  background-color: rgb(0, 113, 227);
   color: rgb(255, 255, 255);
-  background-color: rgb(116, 18, 207);;
-  width: 100%;
-  padding:14px;
   border: 0;
-  border-radius: 40px;
   font-size: 15px;
-  cursor:  pointer;
+  padding: 11px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.Buy{
+  cursor: pointer;
+  color: rgb(0, 113, 227) ;
+  font-size: 15px;
+   padding: 11px 16px;
+   border-radius: 30px;
+   border: 0;
+   background-color: aliceblue;
+ 
+}
+
+.Buy:hover{
+    text-decoration:underline;
 }
 
